@@ -1,0 +1,83 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="insurance.master.cs" Inherits="insurance" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<BODY BACKGROUND="D:\personal\computer issues\my projects\php\php programs\background.jpg" BGCOLOR=#FFFFFF  leftmargin="0" topmargin="0"  onLoad="MM_preloadImages('images/but_home_r.gif','images/but_email_r.gif')">
+
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD width="16%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=156 HEIGHT=1></TD>
+    <TD width="1%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=14 HEIGHT=1></TD>
+    <TD width="27%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=168 HEIGHT=1></TD>
+    <TD width="29%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=261 HEIGHT=1></TD>
+    <TD width="7%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=84 HEIGHT=1></TD>
+    <TD width="15%"> <IMG SRC="D:\personal\computer issues\my projects\php\php programs\images\spacer.gif" WIDTH=57 HEIGHT=1></TD>
+  </TR>
+  <TR> 
+    
+    <TD COLSPAN=4> 
+     <div align="center"><font color="#008080" face="Arial, Helvetica, sans-serif" size="5"><b>&nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp;Iran Insurance 
+        Company </b></font>&nbsp;&nbsp; </div><br><br>
+    </TD>
+  </TR>
+  <TR> 
+    <TD  align="center" height="324"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+        
+      </table>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+     
+     </asp:ContentPlaceHolder>
+      
+      <p>&nbsp; </p>
+    </TD>
+    <TD colspan="4" valign="top" height="324" BACKGROUND="D:\personal\computer issues\my projects\php\php programs\background.jpg"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td bgcolor="#999999" height="28">
+            <div align="right"><font size="2" face="Arial, Helvetica, sans-serif" color="#FFFFFF">|</font><font size="2" face="Arial, Helvetica, sans-serif" color="#FFFFFF"> 
+    <a href="homepage.aspx"> Home </a> | Services | Products | Support &amp; FAQ | Contact | Site 
+              Map |&nbsp;&nbsp;</font></div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td bgcolor="#FFFFFF"    BACKGROUND="D:\personal\computer issues\my projects\php\php programs\background.jpg" valign="top" style="height: 2px">
+            <table width="100%" border="0" cellspacing="2" cellpadding="2">
+              <tr><font size="2"><b>
+                __  &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp; __ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__</b></font><br>
+               </table>        
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     
+     </asp:ContentPlaceHolder>         &nbsp;
+      </td>
+         
+              </tr>
+            </table>
+      <div align="left"></div>
+      <p>&nbsp;</p>
+   
+  
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14"> 
+      <div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif">|<a href="homepage.aspx"> Home </a> | About Us 
+          | Services | Products | Support &amp; FAQ | Contact | Site Map |</font></p><font size="1" face="Arial, Helvetica, sans-serif">RoColife,Ltd,2006 .All rights reserved
+        <p>&nbsp;</p></font>
+      </div>
+    </td>
+  </tr>
+</table>
+          </td>
+        </tr>
+      </table>
+</BODY>
+</html>
